@@ -24,7 +24,7 @@ app.use(cookieParser());
 // Allow requests from your frontend domain
 app.use(
   cors({
-    origin: 'https://trix-one.vercel.app',
+    origin: 'https://trixfrontend-sarish-rvs-projects.vercel.app/',
     credentials: true,
   })
 );
